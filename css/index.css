@@ -1,0 +1,48 @@
+body{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.bouton{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#bouton_pierre{
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    font-size: 25px;
+    background-image: url("/images/pierre.png");
+}
+
+#bouton_pierre:active{
+    color: red;
+}
+
+#bouton_ciseau{
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    font-size: 25px;
+    background-image: url("/images/ciseau.png");
+}
+
+#bouton_ciseau:active{
+    color: red;
+}
+
+#bouton_feuille{
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    font-size: 25px;
+    background-image: url("/images/feuille.png");
+}
+
+#bouton_feuille:active{
+    color: red;
+}
+
+hr{
+    box-shadow: 5px 5px 5px grey;
+}
